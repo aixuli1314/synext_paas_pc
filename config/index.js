@@ -8,7 +8,7 @@ module.exports = {
     dev: {
         // Paths
         assetsSubDirectory: 'static',
-        assetsPublicPath: '/',
+        assetsPublicPath: '/dist',
         proxyTable: {
             // '/api': {
             //     target: '', // 你请求的第三方接口
