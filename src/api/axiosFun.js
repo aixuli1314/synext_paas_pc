@@ -4,7 +4,7 @@ import axios from 'axios';
 const loginreq = (method, url, params) => {
     return axios({
         method: method,
-        url: 'http://80.grba2af6.x3wd7f26.067b25.grapps.cn'+ url,
+        url: 'http://127.0.0.1:80'+ url,
         headers: {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer'+localStorage.getItem('logintoken'),
@@ -23,7 +23,7 @@ const loginreq = (method, url, params) => {
 const req = (method, url, params) => {
     return axios({
         method: method,
-        url: 'http://80.grba2af6.x3wd7f26.067b25.grapps.cn'+ url,
+        url: 'http://127.0.0.1:80'+ url,
         headers: {
             'Content-Type': 'application/json',
             'Authorization': 'Bearer'+localStorage.getItem('logintoken'),
@@ -41,7 +41,7 @@ const req = (method, url, params) => {
 const sp = (method, url, params) => {
     return axios({
         method: method,
-        url: 'http://80.grba2af6.x3wd7f26.067b25.grapps.cn'+ url,
+        url: 'http://127.0.0.1:80'+ url,
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
             'Authorization': 'Bearer'+localStorage.getItem('logintoken'),
