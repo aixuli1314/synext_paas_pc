@@ -162,7 +162,7 @@ export default {
             deptId: 1,
             varLable: '支付访问域名',
             varName: 'domainName',
-            varValue: 'http://127.0.0.1:8080/iot-service-pay'
+            varValue: 'http://127.0.0.1:8888/iot-service-pay'
           },
           {
             addUser: 'root',
